@@ -57,11 +57,11 @@ Single cell RNAseq is becoming more and more popular, and as a technique, it mig
 * [SoupX](https://github.com/constantAmateur/SoupX)
 * [Cellbender](https://github.com/broadinstitute/CellBender)
 
-### single cell RNA-seq normalization
+### Single-cell RNA-seq normalization
 
 * [Normalizing need not be the norm: count-based math for analyzing single-cell data](https://www.biorxiv.org/content/10.1101/2022.06.01.494334v1)
 * [paper: Performance Assessment and Selection of Normalization Procedures for Single-Cell RNA-Seq](https://www.biorxiv.org/content/10.1101/235382v2)
-* [paper: Assessment of single cell RNA-seq normalization methods](http://biorxiv.org/content/early/2016/07/17/064329)
+* [paper: Assessment of single-cell RNA-seq normalization methods](http://biorxiv.org/content/early/2016/07/17/064329)
 * [paper: A practical guide to single-cell RNA-sequencing for biomedical research and clinical applications](https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-017-0467-4)
 * [Normalizing single-cell RNA sequencing data: challenges and opportunities](https://www.nature.com/nmeth/journal/v14/n6/full/nmeth.4292.html) Nature Methods
 * [SinQC: A Method and Tool to Control Single-cell RNA-seq Data Quality](http://www.morgridge.net/SinQC.html).
@@ -99,7 +99,11 @@ Single cell RNAseq is becoming more and more popular, and as a technique, it mig
 * For integration, Harmony seems to be the best. https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1850-9
 * [Nonnegative matrix factorization integrates single-cell multi-omic datasets with partially overlapping features](https://www.biorxiv.org/content/10.1101/2021.04.09.439160v1.full) LIGER R package 
 
-### Benchmark single cell pipeline
+### Single-cell analysis and biomarker discovery pipelines using scaLR
+
+* [scaLR](https://github.com/infocusp/scaLR/tree/main) paper: [scaLR: a low-resource deep neural network-based platform for single cell analysis and biomarker discovery](https://www.biorxiv.org/content/10.1101/2024.09.19.613226v1.full.pdf)
+
+### Benchmark single-cell pipeline
 
 * [MatchScore2](https://github.com/elimereu/matchSCore2) paper: [Benchmarking Single-Cell RNA Sequencing Protocols for Cell Atlas Projects](https://www.biorxiv.org/content/10.1101/630087v1)
 
@@ -112,7 +116,7 @@ Single cell RNAseq is becoming more and more popular, and as a technique, it mig
 * [A discriminative learning approach to differential expression analysis for single-cell RNA-seq](https://www.nature.com/articles/s41592-018-0303-9) by Lior Patcher group.
 * [scde](http://bioconductor.org/packages/release/bioc/html/scde.html) bioconductor package maintained by Jean Fan in Xiaowei Zhuang's lab at Harvard. Need to talk to her once I get a chance.
 * [Presto](https://github.com/immunogenomics/presto)Fast Wilcoxon and auROC for single cell RNAseq and scATACseq data. take a look!
-* How to compare clusters with multiple samples? https://twitter.com/RoryKirchner/status/1082752967806210048 . work in progess https://github.com/HelenaLC/muscat by Helena from Mark Robinson lab. bioc2019 workshop http://biocworkshops2019.bioconductor.org.s3-website-us-east-1.amazonaws.com/page/muscWorkshop__vignette/
+* How to compare clusters with multiple samples? https://twitter.com/RoryKirchner/status/1082752967806210048 . work in progress https://github.com/HelenaLC/muscat by Helena from Mark Robinson lab. bioc2019 workshop http://biocworkshops2019.bioconductor.org.s3-website-us-east-1.amazonaws.com/page/muscWorkshop__vignette/
 and a blog post by VALENTINE SVENSSON from Lior Patcher's group http://www.nxn.se/valent/2019/2/15/handling-confounded-samples-for-differential-expression-in-scrna-seq-experiments
 
 #### for multi-sample multi-group differential analysis
